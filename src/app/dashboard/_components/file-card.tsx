@@ -46,8 +46,8 @@ import {
           {file.type === "image" && (
             <Image
               alt={file.name}
-              width="40"
-              height="40"
+              width="100"
+              height="60"
               src={getFileUrl(file.fileId)}
             />
           )}
