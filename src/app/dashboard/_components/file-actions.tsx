@@ -66,7 +66,7 @@ export function FileCardActions({
                 toast({
                   variant: "default",
                   title: "File marked for deletion",
-                  description: "Your file will be deleted soon",
+                  description: "Your file will be deleted in 10 minutes",
                 });
               }}
             >
