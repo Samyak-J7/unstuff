@@ -28,7 +28,7 @@ export default function LandingPage() {
             />
 
             <h1 className="text-4xl font-bold tracking-tight dark:text-gray-400 text-gray-900 sm:text-6xl">
-              The easiest way to upload and share files with your company
+              The easiest way to upload and share files with your company or family.
             </h1>
             <p className="mt-6 text-lg leading-8 dark:text-white text-gray-600">
               Make and account and start managing your files in less than a
@@ -41,12 +41,7 @@ export default function LandingPage() {
               >
                 Get started
               </Link>
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 dark:text-white text-gray-900"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+             
             </div>
           </div>
         </div>

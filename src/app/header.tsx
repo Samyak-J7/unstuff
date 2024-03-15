@@ -34,7 +34,7 @@ export function Header() {
   };
   const [mobilenav, setMobilenav] = useState(false);
     return (
-    <div className="  dark:bg-black bg-white dark:text-white relative z-10 w-full flex flex-col border-b py-4  ">
+    <div className="  dark:bg-zinc-900 bg-white dark:text-white relative z-10 w-full flex flex-col border-b py-4  ">
       <div className=" px-2 items-center container mx-auto justify-between flex gap-2">
 
         
