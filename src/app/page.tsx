@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <div className="bg-slate-500   dark:bg-black h-screen ">
+    <div className="bg-slate-200   dark:bg-zinc-700 h-screen ">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

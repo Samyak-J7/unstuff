@@ -84,7 +84,7 @@ export function FileBrowser({
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-8  ">
+      <div className="flex justify-between gap-2 items-center mb-8  ">
         
 
         <SearchBar query={query} setQuery={setQuery} />
