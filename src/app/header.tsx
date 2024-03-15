@@ -53,7 +53,7 @@ export function Header() {
         <OrganizationSwitcher appearance={appearance} />
           <UserButton  appearance={appearance} afterSignOutUrl="/"  />
           <SignedOut>
-            <SignInButton mode="modal">
+            <SignInButton afterSignInUrl="/dashboard/files" mode="modal">
               <Button>Sign In</Button>
             </SignInButton>
           </SignedOut>
@@ -72,7 +72,7 @@ export function Header() {
           {mobilenav && <Mnav theme={theme} handleThemeSwitch={handleThemeSwitch} />}
           </SignedIn>
           <SignedOut>
-            <SignInButton mode="modal">
+            <SignInButton afterSignInUrl="/dashboard/files"   mode="modal">
               <Button>Sign In</Button>
             </SignInButton>
           </SignedOut> 
