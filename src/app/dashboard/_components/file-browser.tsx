@@ -30,8 +30,8 @@ function Placeholder() {
         height="300"
         src="/empty.svg"
       />
-      <div className="text-2xl">You have no files, upload one now</div>
-      <UploadButton />
+      <div className="text-2xl">Empty</div>
+      
     </div>
   );
 }
