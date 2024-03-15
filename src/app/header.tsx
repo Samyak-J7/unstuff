@@ -34,12 +34,12 @@ export function Header() {
   };
   const [mobilenav, setMobilenav] = useState(false);
     return (
-    <div className="  dark:bg-zinc-900 bg-white dark:text-white relative z-10 w-full flex flex-col border-b py-4  ">
+    <div className="  dark:bg-zinc-900 bg-white dark:text-white relative z-10 w-full flex flex-col border-b py-4 h-[10vh] justify-center ">
       <div className=" px-2 items-center container mx-auto justify-between flex gap-2">
 
         
         <Link href="/" >
-         <span className=" font-semibold hover:underline   text-3xl">UnStuff</span> 
+         <span className=" font-semibold sm:hover:underline   text-3xl">UnStuff</span> 
         </Link>
         
 
@@ -53,7 +53,7 @@ export function Header() {
         <OrganizationSwitcher appearance={appearance} />
           <UserButton  appearance={appearance} afterSignOutUrl="/"  />
           <SignedOut>
-            <SignInButton>
+            <SignInButton mode="modal">
               <Button>Sign In</Button>
             </SignInButton>
           </SignedOut>
@@ -72,7 +72,7 @@ export function Header() {
           {mobilenav && <Mnav theme={theme} handleThemeSwitch={handleThemeSwitch} />}
           </SignedIn>
           <SignedOut>
-            <SignInButton>
+            <SignInButton mode="modal">
               <Button>Sign In</Button>
             </SignInButton>
           </SignedOut> 
