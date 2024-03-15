@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/select";
 import { Doc } from "../../../../convex/_generated/dataModel";
 import { Label } from "@/components/ui/label";
-
+import {  TrashIcon } from "lucide-react";
 function Placeholder() {
   return (
     <div className="flex flex-col gap-8 w-full items-center mt-24">
@@ -30,7 +30,7 @@ function Placeholder() {
         height="300"
         src="/empty.svg"
       />
-      <div className="text-2xl">Empty</div>
+      <div className="text-2xl">Empty <TrashIcon/></div>
       
     </div>
   );
